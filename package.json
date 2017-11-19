@@ -1,6 +1,6 @@
 {
   "name": "rssjson",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "RSS promise generator for Node",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/rssjson.git",
@@ -16,7 +16,10 @@
     "rss2json",
     "promise"
   ],
-  "files": ["index.js", "lib"],
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "scripts": {
     "test": "xo & ava"
   },
@@ -31,7 +34,9 @@
     "xo": "^0.18.2"
   },
   "xo": {
-    "extends": ["prettier"],
+    "extends": [
+      "prettier"
+    ],
     "rules": {
       "no-negated-condition": 0,
       "guard-for-in": 0
